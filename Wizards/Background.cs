@@ -35,7 +35,8 @@ namespace Wizards
             base.LoadContent();
         }
 
-        const int BACKGROUND_SPEED = 5;
+        const int BACKGROUND_SPEED = 2;
+
         public override void Update(GameTime gameTime)
         {
             sourceRectangle1.X += BACKGROUND_SPEED;
