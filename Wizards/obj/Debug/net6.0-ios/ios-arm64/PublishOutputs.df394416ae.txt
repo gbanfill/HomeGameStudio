@@ -1,0 +1,59 @@
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Cartoon_Forest_BG_04.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Walk/Wizard_Walk_001.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Walk/Wizard_Walk_000.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Walk/Wizard_Walk_002.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Walk/Wizard_Walk_003.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Walk/Wizard_Walk_004.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Idle/Wizard_Idle_004.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Idle/Wizard_Idle_001.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Idle/Wizard_Idle_000.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Idle/Wizard_Idle_002.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Idle/Wizard_Idle_003.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Jump/Wizard_Jump_000.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Jump/Wizard_Jump_001.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Jump/Wizard_Jump_002.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Jump/Wizard_Jump_003.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Content/Wizard/PNG Sequences/Jump/Wizard_Jump_004.png
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/icudt.dat
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/MonoGame.Framework.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Wizards.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Collections.Concurrent.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Collections.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.ComponentModel.TypeConverter.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.ComponentModel.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Console.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Drawing.Primitives.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Linq.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Numerics.Vectors.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Private.Uri.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Runtime.InteropServices.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Runtime.Serialization.Primitives.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Runtime.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Text.Encoding.Extensions.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Text.RegularExpressions.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Threading.Thread.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Threading.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Private.CoreLib.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Microsoft.iOS.dll
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Wizards.pdb
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Wizards.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/MonoGame.Framework.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Collections.Concurrent.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Collections.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.ComponentModel.TypeConverter.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.ComponentModel.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Console.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Drawing.Primitives.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Linq.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Numerics.Vectors.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Private.Uri.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Runtime.InteropServices.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Runtime.Serialization.Primitives.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Runtime.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Text.Encoding.Extensions.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Text.RegularExpressions.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Threading.Thread.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Threading.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/System.Private.CoreLib.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app/Microsoft.iOS.aotdata.arm64
+/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards/bin/Debug/net6.0-ios/ios-arm64/publish/../Wizards.app///Wizards

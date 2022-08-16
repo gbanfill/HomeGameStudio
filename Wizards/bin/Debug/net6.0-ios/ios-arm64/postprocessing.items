@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="Wizards.app/Wizards">
+      <BCSymbolMapName>Wizards.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>false</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>false</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>Wizards.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>obj/Debug/net6.0-ios/ios-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>Wizards.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/georgebanfill/Projects/HomeGameStudio/Bouncer/Wizards</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
