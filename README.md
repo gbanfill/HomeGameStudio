@@ -20,6 +20,8 @@ This is a log of the different session we have worked on to create this demo gam
 
 5. **Add walking animation** Make the character walk forward.
 
+https://user-images.githubusercontent.com/1785961/184994307-e911b444-c2e7-4e0a-89e6-66dd972e7a50.mov
+
 6. **Move the background** Move the background to the left so the that character appears to be moving forwards.
 
 
