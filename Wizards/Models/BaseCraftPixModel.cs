@@ -78,7 +78,7 @@ namespace Wizards.Models
         {
             CurrentAnimation = animationType;
             currentAnimationStartAt = gameTime.TotalGameTime;
-            if (animationType == AnimationType.JUMP_START)
+            if (animationType == AnimationType.JUMP)
             {
                 jumpStartTime = gameTime.TotalGameTime;
             }
@@ -118,13 +118,13 @@ namespace Wizards.Models
 
         public void HandleJumping(GameTime gameTime)
         {
-            if (CurrentAnimation == AnimationType.JUMP || CurrentAnimation == AnimationType.JUMP_START)
+            if (CurrentAnimation == AnimationType.JUMP || CurrentAnimation == AnimationType.JUMP_LOOP)
             {
-                if (gameTime.TotalGameTime - jumpStartTime < TimeSpan.FromSeconds(1))
+                if (gameTime.TotalGameTime - jumpStartTime < TimeSpan.FromSeconds(0.5))
                 {
                     Position.Y -= 15;
                 }
-                else if (gameTime.TotalGameTime - jumpStartTime < TimeSpan.FromSeconds(2))
+                else if (gameTime.TotalGameTime - jumpStartTime < TimeSpan.FromSeconds(1))
                 {
                     Position.Y += 15;
                 }

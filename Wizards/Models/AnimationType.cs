@@ -7,7 +7,7 @@ namespace Wizards.Models
         public const string IDLE_BLINK = "Idle Blinking";
         public const string ATTACKING = "Attacking";
         public const string DYING = "Dying";
-        public const string JUMP_START = "Jump Start";
+        public const string JUMP_LOOP = "JumpLoop";
         public const string JUMP = "Jump";
         public const string TAUNT = "Taunt";
         public const string WALKING = "Walk";

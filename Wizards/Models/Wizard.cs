@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input.Touch;
 
 namespace Wizards.Models
 {
@@ -17,9 +18,10 @@ namespace Wizards.Models
 
         protected override void LoadContent()
         {
-            LoadAnimationSequence(AnimationType.IDLE, 4);
+            LoadAnimationSequence(AnimationType.IDLE, 0);
             LoadAnimationSequence(AnimationType.WALKING, 4);
-            LoadAnimationSequence(AnimationType.JUMP, 4);
+            LoadAnimationSequence(AnimationType.JUMP_LOOP, 0);
+            LoadAnimationSequence(AnimationType.JUMP, 3, AnimationType.JUMP_LOOP);
 
 
             SetCurrentAnimation(AnimationType.WALKING, new GameTime());
@@ -35,9 +37,13 @@ namespace Wizards.Models
 
         public override void Update(GameTime gameTime)
         {
-            if (((int)gameTime.TotalGameTime.TotalSeconds) % 2 == 0)
+            if(TouchPanel.IsGestureAvailable)
             {
-       //         SetCurrentAnimation(AnimationType.JUMP, gameTime);
+                var gesture = TouchPanel.ReadGesture();
+                if (gesture.GestureType== GestureType.Tap)
+                {
+                    Console.WriteLine("screen tapped");
+                }
             }
             base.Update(gameTime);
         }

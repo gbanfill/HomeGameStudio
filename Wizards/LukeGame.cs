@@ -1,5 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input.Touch;
+using Microsoft.Xna.Framework.Media;
 using Wizards.Models;
 
 namespace Wizards;
@@ -7,8 +10,8 @@ namespace Wizards;
 public class LukeGame : Game
 {
     private GraphicsDeviceManager _graphics;
-    
 
+    private Song _music;
     public LukeGame()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -18,6 +21,7 @@ public class LukeGame : Game
 
     protected override void Initialize()
     {
+        TouchPanel.EnabledGestures = GestureType.Tap;
         Background background = new Background(this);
         this.Components.Add(background);
 
@@ -30,7 +34,6 @@ public class LukeGame : Game
     protected override void LoadContent()
     {
         
-
         // TODO: use this.Content to load your game content here
     }
 

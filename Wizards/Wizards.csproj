@@ -28,11 +28,14 @@
     <None Remove="Content\Wizard\PNG Sequences\Jump\Wizard_Jump_001.png" />
     <None Remove="Content\Wizard\PNG Sequences\Jump\Wizard_Jump_002.png" />
     <None Remove="Content\Wizard\PNG Sequences\Jump\Wizard_Jump_003.png" />
-    <None Remove="Content\Wizard\PNG Sequences\Jump\Wizard_Jump_004.png" />
+    <None Remove="Plugin.MediaManager" />
+    <None Remove="Content\Wizard\PNG Sequences\JumpLoop\" />
+    <None Remove="Content\Wizard\PNG Sequences\JumpLoop\Wizard_Jump_004.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Content\Wizard\PNG Sequences\Jump\" />
+    <Folder Include="Content\Wizard\PNG Sequences\JumpLoop\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Cartoon_Forest_BG_04.png">
@@ -80,7 +83,7 @@
     <Content Include="Content\Wizard\PNG Sequences\Jump\Wizard_Jump_003.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Wizard\PNG Sequences\Jump\Wizard_Jump_004.png">
+    <Content Include="Content\Wizard\PNG Sequences\JumpLoop\Wizard_JumpLoop_000.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
