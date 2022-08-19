@@ -43,9 +43,12 @@ namespace Wizards.Models
                 if (gesture.GestureType== GestureType.Tap)
                 {
                     Console.WriteLine("screen tapped");
+                    SetCurrentAnimation(AnimationType.JUMP, gameTime);
                 }
             }
+            HandleJumping(gameTime);
             base.Update(gameTime);
+
         }
 
         public override void Draw(GameTime gameTime)
