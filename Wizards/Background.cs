@@ -35,7 +35,7 @@ namespace Wizards
             base.LoadContent();
         }
 
-        const int BACKGROUND_SPEED = 2;
+        public const int BACKGROUND_SPEED = 2;
 
         public override void Update(GameTime gameTime)
         {

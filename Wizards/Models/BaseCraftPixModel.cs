@@ -122,17 +122,20 @@ namespace Wizards.Models
             {
                 if (gameTime.TotalGameTime - jumpStartTime < TimeSpan.FromSeconds(0.5))
                 {
-                    Position.Y -= 15;
+                    var newPositionY = Position.Y - 15;
+                    Position.Y = Math.Clamp(newPositionY, 0, initalY);
                 }
-                else if (gameTime.TotalGameTime - jumpStartTime < TimeSpan.FromSeconds(1))
+                else //if (gameTime.TotalGameTime - jumpStartTime < TimeSpan.FromSeconds(1))
                 {
                     Position.Y += 15;
                 }
-                else
-                {
-                    SetCurrentAnimation(AnimationType.WALKING, gameTime);
-                    SetInitalPosition();
-                }
+                
+            }
+
+            if (Position.Y > initalY)
+            {
+                SetCurrentAnimation(AnimationType.WALKING, gameTime);
+                SetInitalPosition();
             }
         }
     }
