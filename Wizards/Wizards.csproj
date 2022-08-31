@@ -31,6 +31,7 @@
     <None Remove="Plugin.MediaManager" />
     <None Remove="Content\Wizard\PNG Sequences\JumpLoop\" />
     <None Remove="Content\Wizard\PNG Sequences\JumpLoop\Wizard_Jump_004.png" />
+    <None Remove="Content\spike.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -86,6 +87,9 @@
     <Content Include="Content\Wizard\PNG Sequences\JumpLoop\Wizard_JumpLoop_000.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\spike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Update="Content\Wizard\PNG Sequences\Idle\Wizard_Idle_004.png">
@@ -103,6 +107,14 @@
     <None Update="Content\Wizard\PNG Sequences\Idle\Wizard_Idle_003.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Update="Images.xcassets\AppIcons-1.appiconset\Icon-76.png">
+      <Link>Images.xcassets\AppIcons-1.appiconset\Icon-76.png</Link>
+    </ImageAsset>
+    <ImageAsset Update="Images.xcassets\AppIcons-1.appiconset\Icon-152.png">
+      <Link>Images.xcassets\AppIcons-1.appiconset\Icon-152.png</Link>
+    </ImageAsset>
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
     <Message Text="Restoring dotnet tools" Importance="High" />

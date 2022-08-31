@@ -28,6 +28,8 @@ public class LukeGame : Game
         Wizard wizard = new Wizard(this);
         this.Components.Add(wizard);
 
+        Spike spike = new Spike(this);
+        this.Components.Add(spike);
         base.Initialize();
     }
 
