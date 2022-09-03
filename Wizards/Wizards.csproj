@@ -35,12 +35,19 @@
     <None Remove="Resources\" />
     <None Remove="Resources\WizardLogo.png" />
     <None Remove="WizardLogo.png" />
+    <None Remove="Content\Wizard\PNG Sequences\Die\" />
+    <None Remove="Content\Wizard\PNG Sequences\Die\Wizard_Die_000.png" />
+    <None Remove="Content\Wizard\PNG Sequences\Die\Wizard_Die_001.png" />
+    <None Remove="Content\Wizard\PNG Sequences\Die\Wizard_Die_002.png" />
+    <None Remove="Content\Wizard\PNG Sequences\Die\Wizard_Die_003.png" />
+    <None Remove="Content\Wizard\PNG Sequences\Die\Wizard_Die_004.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Content\Wizard\PNG Sequences\Jump\" />
     <Folder Include="Content\Wizard\PNG Sequences\JumpLoop\" />
     <Folder Include="Resources\" />
+    <Folder Include="Content\Wizard\PNG Sequences\Die\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Cartoon_Forest_BG_04.png">
@@ -96,6 +103,21 @@
     </Content>
     <Content Include="Resources\WizardLogo.png" />
     <Content Include="WizardLogo.png" />
+    <Content Include="Content\Wizard\PNG Sequences\Die\Wizard_Die_000.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Wizard\PNG Sequences\Die\Wizard_Die_001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Wizard\PNG Sequences\Die\Wizard_Die_002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Wizard\PNG Sequences\Die\Wizard_Die_003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Wizard\PNG Sequences\Die\Wizard_Die_004.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Update="Content\Wizard\PNG Sequences\Idle\Wizard_Idle_004.png">
@@ -113,6 +135,17 @@
     <None Update="Content\Wizard\PNG Sequences\Idle\Wizard_Idle_003.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="Content\Wizard\PNG Sequences\Die\Wizard_Die_001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\Wizard\PNG Sequences\Die\Wizard_Die_002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Condition="'$(_ResourcePrefix)' != ''" Update="Resources\WizardLogo.png">
+      <Link>Resources\WizardLogo.png</Link>
+    </BundleResource>
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
     <Message Text="Restoring dotnet tools" Importance="High" />

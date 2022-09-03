@@ -39,31 +39,34 @@ namespace Wizards
 
         public override void Update(GameTime gameTime)
         {
-            sourceRectangle1.X += BACKGROUND_SPEED;
-
-            // if image isnt big enough to fill the screen change the width of the destination rectangle
-            if (sourceRectangle1.X + sourceRectangle1.Width > background.Width)
+            if (!GameState.IsDead)
             {
-                sourceRectangle1.Width -= BACKGROUND_SPEED;
-                destinationRectangle1.Width = (int)(sourceRectangle1.Width * GraphicsDevice.Viewport.Width / (float)imageWidthVisibleOnScreen);
+                sourceRectangle1.X += BACKGROUND_SPEED;
 
-                sourceRectangle2.Width = imageWidthVisibleOnScreen - sourceRectangle1.Width;
-                destinationRectangle2.X = destinationRectangle1.Width;
-                destinationRectangle2.Width = GraphicsDevice.Viewport.Width - destinationRectangle1.Width;
-            }
+                // if image isnt big enough to fill the screen change the width of the destination rectangle
+                if (sourceRectangle1.X + sourceRectangle1.Width > background.Width)
+                {
+                    sourceRectangle1.Width -= BACKGROUND_SPEED;
+                    destinationRectangle1.Width = (int)(sourceRectangle1.Width * GraphicsDevice.Viewport.Width / (float)imageWidthVisibleOnScreen);
 
-            // reset the source rectangle back to 0
-            if (sourceRectangle1.X > background.Width )
-            {
-                sourceRectangle1.X = 0;
-                sourceRectangle1.Width = imageWidthVisibleOnScreen;
-                destinationRectangle1.Width = Game.GraphicsDevice.Viewport.Width;
+                    sourceRectangle2.Width = imageWidthVisibleOnScreen - sourceRectangle1.Width;
+                    destinationRectangle2.X = destinationRectangle1.Width;
+                    destinationRectangle2.Width = GraphicsDevice.Viewport.Width - destinationRectangle1.Width;
+                }
 
-                sourceRectangle2.X = 0;
-                sourceRectangle2.Width = imageWidthVisibleOnScreen;
-                destinationRectangle2.Width = Game.GraphicsDevice.Viewport.Width;
-                destinationRectangle2.X = 0;
+                // reset the source rectangle back to 0
+                if (sourceRectangle1.X > background.Width)
+                {
+                    sourceRectangle1.X = 0;
+                    sourceRectangle1.Width = imageWidthVisibleOnScreen;
+                    destinationRectangle1.Width = Game.GraphicsDevice.Viewport.Width;
 
+                    sourceRectangle2.X = 0;
+                    sourceRectangle2.Width = imageWidthVisibleOnScreen;
+                    destinationRectangle2.Width = Game.GraphicsDevice.Viewport.Width;
+                    destinationRectangle2.X = 0;
+
+                }
             }
             base.Update(gameTime);
         }

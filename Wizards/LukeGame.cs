@@ -19,16 +19,19 @@ public class LukeGame : Game
         IsMouseVisible = true;
     }
 
+    Wizard wizard;
+    Spike spike;
+
     protected override void Initialize()
     {
-        TouchPanel.EnabledGestures = GestureType.Tap;
+        TouchPanel.EnabledGestures = GestureType.Tap | GestureType.DoubleTap;
         Background background = new Background(this);
         this.Components.Add(background);
 
-        Wizard wizard = new Wizard(this);
+        wizard = new Wizard(this);
         this.Components.Add(wizard);
 
-        Spike spike = new Spike(this);
+        spike = new Spike(this);
         this.Components.Add(spike);
         base.Initialize();
     }
@@ -41,7 +44,10 @@ public class LukeGame : Game
 
     protected override void Update(GameTime gameTime)
     {
-        // TODO: Add your update logic here
+        if(wizard.Touches(spike))
+        {
+            GameState.IsDead = true;
+        }
 
 
         base.Update(gameTime);

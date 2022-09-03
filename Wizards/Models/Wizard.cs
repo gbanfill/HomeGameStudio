@@ -22,6 +22,7 @@ namespace Wizards.Models
             LoadAnimationSequence(AnimationType.WALKING, 4);
             LoadAnimationSequence(AnimationType.JUMP_LOOP, 0);
             LoadAnimationSequence(AnimationType.JUMP, 3, AnimationType.JUMP_LOOP);
+            LoadAnimationSequence(AnimationType.DYING, 4);
 
 
             SetCurrentAnimation(AnimationType.WALKING, new GameTime());
@@ -37,6 +38,10 @@ namespace Wizards.Models
 
         public override void Update(GameTime gameTime)
         {
+            if (GameState.IsDead && CurrentAnimation != AnimationType.IDLE)
+            {
+                SetCurrentAnimation(AnimationType.IDLE, gameTime);
+            }
             if(TouchPanel.IsGestureAvailable)
             {
                 var gesture = TouchPanel.ReadGesture();
@@ -56,6 +61,16 @@ namespace Wizards.Models
             DrawCurrentAnimationFrame(Position, gameTime);
 
             base.Draw(gameTime);
+        }
+
+        public void Reset(GameTime gametime)
+        {
+            SetCurrentAnimation(AnimationType.WALKING, gametime);
+        }
+
+        public bool Touches(Spike spike)
+        {
+            return spike.BoundingBox.Contains(new Vector2(Position.X + (Width/2), Position.Y) );
         }
     }
 }

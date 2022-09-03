@@ -15,7 +15,11 @@ namespace Wizards.Models
 
         protected SpriteBatch _spriteBatch;
 
-        Vector2 position;
+        public Vector2 position;
+
+        public Rectangle BoundingBox =>
+            new Rectangle((int)position.X, (int)position.Y- texture2D.Height, texture2D.Width, texture2D.Height);
+
 
         public override void Initialize()
         {
@@ -27,11 +31,19 @@ namespace Wizards.Models
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
-            position.X -= 4;
-            if (position.X < -texture2D.Width)
+            if (!GameState.IsDead)
             {
-                position.X = GraphicsDevice.Viewport.Width;
+                position.X -= 4;
+                if (position.X < -texture2D.Width)
+                {
+                    Reset();
+                }
             }
+        }
+
+        public void Reset()
+        {
+            position.X = GraphicsDevice.Viewport.Width;
         }
 
 
