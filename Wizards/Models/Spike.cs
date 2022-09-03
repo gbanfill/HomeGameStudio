@@ -21,7 +21,7 @@ namespace Wizards.Models
         {
             base.Initialize();
             texture2D = Texture2D.FromFile(Game.GraphicsDevice, "Content/spike.png");
-            position = new Vector2(Game.GraphicsDevice.Viewport.Width, 1200);
+            position = new Vector2(Game.GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height - texture2D.Height - 100);
         }
 
         public override void Update(GameTime gameTime)
