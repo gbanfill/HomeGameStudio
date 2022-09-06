@@ -44,13 +44,24 @@ public class LukeGame : Game
 
     protected override void Update(GameTime gameTime)
     {
-        if(wizard.Touches(spike))
+        base.Update(gameTime);
+        if (wizard.Touches(spike))
         {
             GameState.IsDead = true;
         }
 
+        if (TouchPanel.IsGestureAvailable)
+        {
+             var gesture =TouchPanel.ReadGesture();
+            if(gesture.GestureType== GestureType.DoubleTap)
+            {
+                GameState.IsDead = false;
+                spike.Reset();
+                wizard.Reset(gameTime);
+            }
+        }
+       
 
-        base.Update(gameTime);
     }
 
     protected override void Draw(GameTime gameTime)

@@ -11,5 +11,6 @@ namespace Wizards.Models
         public const string JUMP = "Jump";
         public const string TAUNT = "Taunt";
         public const string WALKING = "Walk";
+        public const string DEAD = "Dead";
     }
 }

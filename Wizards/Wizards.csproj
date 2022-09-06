@@ -41,6 +41,8 @@
     <None Remove="Content\Wizard\PNG Sequences\Die\Wizard_Die_002.png" />
     <None Remove="Content\Wizard\PNG Sequences\Die\Wizard_Die_003.png" />
     <None Remove="Content\Wizard\PNG Sequences\Die\Wizard_Die_004.png" />
+    <None Remove="Content\Wizard\PNG Sequences\Dead\" />
+    <None Remove="Content\Wizard\PNG Sequences\Dead\Wizard_Die_004.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -48,6 +50,7 @@
     <Folder Include="Content\Wizard\PNG Sequences\JumpLoop\" />
     <Folder Include="Resources\" />
     <Folder Include="Content\Wizard\PNG Sequences\Die\" />
+    <Folder Include="Content\Wizard\PNG Sequences\Dead\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Cartoon_Forest_BG_04.png">
@@ -116,6 +119,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Wizard\PNG Sequences\Die\Wizard_Die_004.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Wizard\PNG Sequences\Dead\Wizard_Dead_000.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

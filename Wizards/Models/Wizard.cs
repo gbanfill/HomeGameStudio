@@ -22,8 +22,8 @@ namespace Wizards.Models
             LoadAnimationSequence(AnimationType.WALKING, 4);
             LoadAnimationSequence(AnimationType.JUMP_LOOP, 0);
             LoadAnimationSequence(AnimationType.JUMP, 3, AnimationType.JUMP_LOOP);
-            LoadAnimationSequence(AnimationType.DYING, 4);
-
+            LoadAnimationSequence(AnimationType.DYING, 4, AnimationType.DEAD);
+            LoadAnimationSequence(AnimationType.DEAD, 0);
 
             SetCurrentAnimation(AnimationType.WALKING, new GameTime());
             SetInitalPosition();
@@ -38,11 +38,11 @@ namespace Wizards.Models
 
         public override void Update(GameTime gameTime)
         {
-            if (GameState.IsDead && CurrentAnimation != AnimationType.IDLE)
+            if (GameState.IsDead && CurrentAnimation == AnimationType.WALKING )
             {
-                SetCurrentAnimation(AnimationType.IDLE, gameTime);
+                SetCurrentAnimation(AnimationType.DYING, gameTime);
             }
-            if(TouchPanel.IsGestureAvailable)
+            if(!GameState.IsDead && TouchPanel.IsGestureAvailable)
             {
                 var gesture = TouchPanel.ReadGesture();
                 if (gesture.GestureType== GestureType.Tap)
